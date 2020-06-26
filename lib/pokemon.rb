@@ -11,8 +11,5 @@ class Pokemon
   end
 
 
-  def method_name
-
-  end
 
 end
