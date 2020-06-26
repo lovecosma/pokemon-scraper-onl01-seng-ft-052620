@@ -31,6 +31,7 @@ class Pokemon
       WHERE pokemon.id = ?;
     SQL
     row = db.execute(sql, id).flatten
+    
 
   end
 
