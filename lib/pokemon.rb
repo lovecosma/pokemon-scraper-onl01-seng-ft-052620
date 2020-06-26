@@ -14,7 +14,7 @@ class Pokemon
   def save
 
     sql = <<-SQL
-    INSERT INTO pokemon (id, name, type)
+    INSERT INTO pokemon (name, type, db)
     VALUES (?,?,?);
     SQL
 
