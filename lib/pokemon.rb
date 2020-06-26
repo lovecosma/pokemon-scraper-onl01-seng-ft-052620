@@ -37,7 +37,7 @@ class Pokemon
     new_type = row[2]
 
     new_pokemon = Pokemon.new(id: id, name: new_name, type: new_type, db: db)
-
+    new_pokemon
   end
 
 
