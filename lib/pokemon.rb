@@ -24,6 +24,7 @@ class Pokemon
 
 
   def self.find(id, db)
+
     sql = <<-SQL
       SELECT *
       FROM pokemon
