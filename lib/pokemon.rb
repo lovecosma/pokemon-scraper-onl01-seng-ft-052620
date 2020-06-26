@@ -32,6 +32,7 @@ class Pokemon
     SQL
     row = db.execute(sql, id).flatten
     new_id = row[0]
+    new_
 
   end
 
