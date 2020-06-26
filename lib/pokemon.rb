@@ -15,7 +15,7 @@ class Pokemon
 
     sql = <<-SQL
     
-    SQL 
+    SQL
 
   end
 
