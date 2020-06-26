@@ -4,8 +4,8 @@ class Pokemon
 
   def initialize(id: 1, name: "Pikachu", type: "electric")
 
-    @name = type:
-    @type = name:
+    @name = namex:
+    @type = type:
     @id = id:
 
   end
