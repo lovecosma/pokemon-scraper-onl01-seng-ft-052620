@@ -15,7 +15,7 @@ class Pokemon
 
     sql = <<-SQL
     INSERT INTO pokemon (id, name, type)
-    VALUES (?,?,?)
+    VALUES (?,?,?);
     SQL
     DB[conn:].execute(sql, self.id, self.name, self.type)
   end
