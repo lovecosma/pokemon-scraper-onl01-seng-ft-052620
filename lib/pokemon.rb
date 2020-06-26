@@ -5,7 +5,7 @@ class Pokemon
   def initialize(row_from_db)
 
     @name = row_from_db[0]
-    @type = type
+    @type = row_from_db[1]
     @id = id
 
   end
