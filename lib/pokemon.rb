@@ -14,6 +14,7 @@ class Pokemon
   def save
 
     sql = <<-SQL
+    QL
 
   end
 
