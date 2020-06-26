@@ -17,7 +17,7 @@ class Pokemon
     INSERT INTO pokemon (id, name, type)
     VALUES (?,?,?);
     SQL
-    DB[conn].execute(sql, self.id, self.name, self.type)
+    DB[conn:].execute(sql, self.id, self.name, self.type)
 
   end
 
