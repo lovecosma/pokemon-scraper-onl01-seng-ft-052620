@@ -13,7 +13,7 @@ class Pokemon
 
   def save
 
-    
+    sql = <<-SQL
 
   end
 
