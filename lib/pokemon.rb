@@ -15,6 +15,7 @@ class Pokemon
 
     sql = <<-SQL
     INSERT INTO pokemon (name, value, type)
+    VALUES
 
     SQL
 
