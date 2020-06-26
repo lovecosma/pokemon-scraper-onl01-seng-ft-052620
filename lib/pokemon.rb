@@ -4,8 +4,8 @@ class Pokemon
 
   def initialize(id: 1, name: "Pikachu", type: "electric")
 
-    @name = row_from_db[0]
-    @type = :name
+    @name = type:
+    @type = name:
     @id = id:
 
   end
