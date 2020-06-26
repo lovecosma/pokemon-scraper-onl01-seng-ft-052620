@@ -30,9 +30,10 @@ class Pokemon
       FROM pokemon
       WHERE pokemon.id = ?;
     SQL
+    
     row = db.execute(sql, id).flatten
-    new_id = row[0]
-    new_
+    new_name = row[1]
+    new_type = row[2]
 
   end
 
