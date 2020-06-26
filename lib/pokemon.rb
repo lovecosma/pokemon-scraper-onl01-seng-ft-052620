@@ -7,10 +7,12 @@ class Pokemon
     @name = name
     @type = type
     @id = id
-     
+
   end
 
 
-  
+  def method_name
+    
+  end
 
 end
