@@ -4,7 +4,8 @@ class Pokemon
 
   def initialize(name, type, id = nil)
 
-    
+    @name = name
+    @type = type
 
   end
 
