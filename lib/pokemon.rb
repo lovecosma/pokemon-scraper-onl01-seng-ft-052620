@@ -29,6 +29,7 @@ class Pokemon
       FROM pokemon
       WHERE pokemon.id = ?;
     SQL
+    
 
   end
 
