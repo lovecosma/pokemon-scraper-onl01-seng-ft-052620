@@ -31,7 +31,7 @@ class Pokemon
       WHERE pokemon.id = ?;
     SQL
     row = db.execute(sql, id).flatten
-    
+    new_id = row[0]
 
   end
 
