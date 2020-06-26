@@ -17,7 +17,8 @@ class Pokemon
     INSERT INTO pokemon (id, name, type)
     VALUES (?,?,?);
     SQL
-    @db.execute(sql, self.id, self.name, self.type)
+
+    @db.execute(sql, self.name, self.type, db)
 
   end
 
