@@ -32,8 +32,13 @@ class Pokemon
     SQL
 
     row = db.execute(sql, id).flatten
+
     new_name = row[1]
     new_type = row[2]
+
+    new_pokemon = 
+
+
 
   end
 
