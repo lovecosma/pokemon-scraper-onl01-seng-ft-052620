@@ -38,8 +38,6 @@ class Pokemon
 
     new_pokemon = Pokemon.new(id: id, name: new_name, type: new_type, db: db)
 
-
-
   end
 
 
