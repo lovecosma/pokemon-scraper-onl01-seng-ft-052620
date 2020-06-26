@@ -27,6 +27,7 @@ class Pokemon
     sql = <<-SQL
       SELECT *
       FROM pokemon
+      WHERE pokemon.id = ?;
     SQL
 
   end
