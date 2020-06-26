@@ -18,7 +18,7 @@ class Pokemon
     VALUES (?,?,?);
     SQL
 
-    DB[:conn].execute(sql, name, type, db)
+    @db.execute(sql, name, type)
 
   end
 
