@@ -12,7 +12,7 @@ class Pokemon
 
 
   def method_name
-    
+
   end
 
 end
