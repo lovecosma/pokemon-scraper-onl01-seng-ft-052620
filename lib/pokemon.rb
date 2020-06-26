@@ -24,7 +24,7 @@ class Pokemon
 
 
   def self.find(id)
-    sql = <<-SQL 
+    sql = <<-SQL
     SQL
 
   end
