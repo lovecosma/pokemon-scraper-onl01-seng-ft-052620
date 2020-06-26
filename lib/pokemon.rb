@@ -24,6 +24,7 @@ class Pokemon
 
 
   def self.find(id)
+    
 
 
 
