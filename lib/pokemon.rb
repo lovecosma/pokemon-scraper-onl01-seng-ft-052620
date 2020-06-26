@@ -6,7 +6,7 @@ class Pokemon
 
     @name = row_from_db[0]
     @type = row_from_db[1]
-    @id = id
+    @id = row_from_db[2]
 
   end
 
